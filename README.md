@@ -6,6 +6,9 @@
 - Clone this repo  
 `$git clone https://github.com/sarthakchaudhary13/grub-theme.git`
 
+- Custom background (Optional)  
+Change the `background.png` image with your custom png image in `grub-theme/`
+
 - Copy the theme to the bootloader themes directory (required root access)  
 `sudo cp -a /path/to/cloned/repo /boot/grub/themes/grub-theme`
 
@@ -16,10 +19,9 @@
   `GRUB_THEME="/boot/grub/themes/grub-theme/theme.txt"`
   - Save and exit the editor
   
-- Generate grub.cfg  
+- Generate grub.cfg 
  `sudo grub-mkconfig -o /boot/grub/grub.cfg`
  
- - reboot  
+ - reboot to see your new grub theme  
  `reboot`
- 
  - If you face any errors feel free to ask me by opening an issue
